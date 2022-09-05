@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Kevin Boere
 
   #### Je startniveau:
-  Zwart
+  Blauw/Zwart
 
   #### Je focus:
   zowel responsive als surface plane (voor de uitdaging)

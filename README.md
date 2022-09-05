@@ -40,7 +40,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   "About" Pagina | https://www.tdp-arch.com/about
-  <img src="readme-images/About-page.png" width="375px" alt="Een "About" pagina met informatie over het bedrijf." >
+  <img src="readme-images/About-page.png" width="375px" alt="Een "about" pagina met info over het bedrijf" >
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Portfolio item: "Mitchum Jewelers" Pagina | https://www.tdp-arch.com/portfolio/mitchum-jewelers  

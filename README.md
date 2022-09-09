@@ -83,11 +83,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### <h3>Motoriek (shocks, elastiekjes)</h3>
   <b>Hier korte omschrijving (met indien nodig afbeeldingen)</b>
   <br>Tijdens het testen met een elastiekje en shocks kwam ik erachter dat de website moeilikjker te navigeren is. 
-  In de video heironder zul je zien dat het wel lukt maar je moet er veel moeite voor doen en soms lukt het dan ook gwn niet.
+  In de video ieronder zul je zien dat het wel lukt maar je moet er veel moeite voor doen en soms lukt het dan ook gwn niet.
   
   <video controls width="80%">
 
-    <source src="video/test-shocks.mov"
+    <source src="video/test-shocks.mp4"
             type="video/mp4">
 </video>
   

@@ -82,7 +82,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### <h3>Motoriek (shocks, elastiekjes)</h3>
   <b>Hier korte omschrijving (met indien nodig afbeeldingen)</b>
-  Tijdens het testen met een elastiekje en shocks kwam ik erachter dat de website moeilikjker te navigeren is. 
+  <br>Tijdens het testen met een elastiekje en shocks kwam ik erachter dat de website moeilikjker te navigeren is. 
   In de video heironder zul je zien dat het wel lukt maar je moet er veel moeite voor doen en soms lukt het dan ook gwn niet.
   
   <video controls width="80%">
@@ -98,7 +98,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### <h3>Visueel (brillen, contrast, kleurenblind, dark/light). </h3>
   <b>Hier korte omschrijving (met indien nodig afbeeldingen)</b>
-  Darkmode: ik heb vid de inspector tool, darkmode getest om te zien wat er verschilt. en eigenlijk is dat ninet heel veel op alle standaard witte         achtegronden na, deze worden zwart. Hierdoor worden sommige dingen wel duidelijker (zie screenshot) of meer belangrijk dan dat het zou moeten zijn.     Het contrast wordt iets groter ook vind ik.
+  <br>Darkmode: ik heb vid de inspector tool, darkmode getest om te zien wat er verschilt. en eigenlijk is dat ninet heel veel op alle standaard witte         achtegronden na, deze worden zwart. Hierdoor worden sommige dingen wel duidelijker (zie screenshot) of meer belangrijk dan dat het zou moeten zijn.     Het contrast wordt iets groter ook vind ik.
   
   <img src="readme-images/l-mode.jpg" alt="foto van lightmode"> VS   <img src="readme-images/d-mode.jpg" alt="foto van darkmode">
   

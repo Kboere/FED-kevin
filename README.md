@@ -66,7 +66,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     <li>Vergt veel focus</li>
   </ul>
 
-  #### Screenreader
+  #### <h3>Screenreader</h3>
   Door op "tab" te drukke gaat ie naar het volgende element. Sommige teksten en H1 slaat ie over en aan het eind zegt ie altijd hoofd... waarom is dat?
   Onzichtbare linkjes leest ie ook voor met name in het menu
   
@@ -74,13 +74,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <b>Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)</b>
 
 
-  #### Muis en Toetsenbord 
+  #### <h3>Muis en Toetsenbord </h3>
   <b>Hier korte omschrijving (met indien nodig afbeeldingen)</b>
 
   <b> Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)</b>
 
 
-  #### Motoriek (shocks, elastiekjes)
+  #### <h3>Motoriek (shocks, elastiekjes)</h3>
   <b>Hier korte omschrijving (met indien nodig afbeeldingen)</b>
   Tijdens het testen met een elastiekje en shocks kwam ik erachter dat de website moeilikjker te navigeren is. 
   In de video heironder zul je zien dat het wel lukt maar je moet er veel moeite voor doen en soms lukt het dan ook gwn niet.
@@ -96,7 +96,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <b> Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)</b>
 
 
-  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
+  #### <h3>Visueel (brillen, contrast, kleurenblind, dark/light). </h3>
   <b>Hier korte omschrijving (met indien nodig afbeeldingen)</b>
   Darkmode: ik heb vid de inspector tool, darkmode getest om te zien wat er verschilt. en eigenlijk is dat ninet heel veel op alle standaard witte         achtegronden na, deze worden zwart. Hierdoor worden sommige dingen wel duidelijker (zie screenshot) of meer belangrijk dan dat het zou moeten zijn.     Het contrast wordt iets groter ook vind ik.
   
@@ -119,7 +119,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Breakdownschets (week 1)
+## <h2>Breakdownschets (week 1)</h2>
 
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
@@ -139,7 +139,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Voortgang 1 (week 2)
+## <h2>Voortgang 1 (week 2)</h2>
 
 <details>
   <summary>uitwerken voor 1e voortgang</summary>
@@ -172,7 +172,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Voortgang 2 (week 3)
+## <h2>Voortgang 2 (week 3)</h2>
 
 <details>
   <summary>uitwerken voor 2e voortgang</summary>
@@ -205,7 +205,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Toegankelijkheidstest 2/2 (week 4)
+## <h2>Toegankelijkheidstest 2/2 (week 4)</h2>
 
 <details>
   <summary>uitwerken na test in 8e werkgroep</summary>
@@ -242,7 +242,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Voortgang 3 (week 4)
+## <h2>Voortgang 3 (week 4)</h2>
 
 <details>
   <summary>uitwerken voor 3e voortgang</summary>
@@ -275,7 +275,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Eindgesprek (week 5)
+## <h2>Eindgesprek (week 5)</h2>
 
 <details>
   <summary>uitwerken voor eindgesprek</summary>
@@ -300,7 +300,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Bronnenlijst
+## <h2>Bronnenlijst</h2>
 
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>

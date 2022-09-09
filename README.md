@@ -57,9 +57,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  <h2>Retina laat los</h2>
+  <ul>
+    <li>Ziet heel weinig</li>
+    <li>Wanneer je over elementen gaat vegroten ze iets</li>
+    <li>Foto's zijn heel vaag</li>
+    <li>Wordt een beetje misselijk & koppijn</li>
+    <li>Vergt veel focus</li>
+  </ul>
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Door op "tab" te drukke gaat ie naar het volgende element. Sommige teksten en H1 slaat ie over en aan het eind zegt ie altijd hoofd... waarom is dat?
+  Onzichtbare linkjes leest ie ook voor met name in het menu
+  
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 

@@ -39,7 +39,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.tdp-arch.com/ <br> (Torgerson Design Partners is een full-service architectenbureau en commerciële ontwerpgroep)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  "About" Pagina | https://www.tdp-arch.com/about
+  "About" Pagina | https://www.tdp-arch.com/about <br>
   <img src="readme-images/About-page.png" width="375px" alt="Een about pagina met info over het bedrijf" >
 
   #### Screenshot(s) van de tweede pagina (small screen):

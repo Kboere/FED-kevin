@@ -104,7 +104,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   Blurred: Door dat je via de inspector tool een website blurred kan laten lijken, kun je goed nagaan wat mensen met een slechte visie zien. Wat ik       vooral merk is dat kleine lange teksten niet leesbaar worden en feel focus vergen. Het duidelijkst is wle als je iets een andere kleur markeert, dat     valt op en is dan best goed te lezen.
   
-  <img src="blurred.jpg" alt="foto van blurred mode">
+  <img src="readme-images/blurred.jpg" alt="foto van blurred mode">
   
   Kleurenblind: Ik heb ook getest welke kleuren verandern met welke kleur blindheid.
   

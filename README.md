@@ -308,7 +308,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
   1. [bron 1] (https://codepen.io/alvarotrigo/pen/MWEJEWG)
-  2. bron 2
+  2. bron 2. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach (JS menu)
   3. ...
 
 </details>

@@ -1,0 +1,53 @@
+/*
+.hero-2 .slider_container {
+    position: relative;
+    height: 100%;
+
+    overflow: hidden;
+}
+
+.hero-2.slider {
+    display: inline-flex;
+    transition: 0.9s;
+}
+
+.hero-2 .slider img {
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.hero-2 .indicator {
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    left: 47%;
+    bottom: -50px;
+}
+
+.hero-2 .dots {
+    background-color: #fff;
+    height: 15px;
+    width: 15px;
+    transition: 0.8s;
+    margin: 0px;
+    margin-left: 8px;
+}
+
+.hero-2 .dots:hover,
+.hero-2 .dots:active {
+    background-color: #ff422a;
+}
+
+
+.hero-2 h1 {
+    margin: 0 0 -25px;
+    position: relative;
+    z-index: 99;
+    margin-top: 80px;
+}
+
+section.hero-2 {
+    background-color: #dae4e6;
+}
+*/

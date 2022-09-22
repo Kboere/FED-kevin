@@ -86,7 +86,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   In de video ieronder zul je zien dat het wel lukt maar je moet er veel moeite voor doen en soms lukt het dan ook gwn niet.
   
   <video controls width="80%">
-
     <source src="video/test-shocks.mp4"
             type="video/mp4">
 </video>

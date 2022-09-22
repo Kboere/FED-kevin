@@ -1,14 +1,16 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+var hamburger = document.querySelector(".hamburger");
+var navMenu = document.querySelector(".nav-menu");
+var navbar = document.querySelector(".navbar");
 
 hamburger.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
+    navbar.classList.toggle("active");
 }
 
-const navLink = document.querySelectorAll(".nav-link");
+var navLink = document.querySelectorAll(".nav-link");
 
 navLink.forEach(n => n.addEventListener("click", closeMenu));
 
@@ -17,10 +19,10 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
-const slide = document.querySelector(".slider");
-const btn1 = document.querySelector(".btn1");
-const btn2 = document.querySelector(".btn2");
-const btn3 = document.querySelector(".btn3");
+var slide = document.querySelector(".slider");
+var btn1 = document.querySelector(".btn1");
+var btn2 = document.querySelector(".btn2");
+var btn3 = document.querySelector(".btn3");
 btn1.onclick = function () {
   slide.style.transform = "translateX(0px)";
 };

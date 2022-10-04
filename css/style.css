@@ -14,14 +14,16 @@
      box-sizing: border-box;
      font-family: nobel, sans-serif;
 }
-
+ ::selection {
+     background: rgba(255, 66, 42, .5);
+}
  svg {
      stroke-dasharray: 1000;
      stroke-dashoffset: 1000;
      pointer-events: none;
      position: relative;
 }
-svg.triggered path {
+ svg.triggered path {
      animation: firstAnimation 2s ease-out forwards;
      animation-iteration-count: 1;
      animation-delay: 1s;
@@ -50,6 +52,15 @@ svg.triggered path {
      text-transform: none;
      position: relative;
      text-align: right;
+}
+ h2[aria-hidden='false'] {
+     font-size: 0;
+     line-height: 0;
+     margin: 0;
+     padding: 0;
+}
+ h2[aria-hidden='true'] {
+     display: none;
 }
  h3 {
      font-size: 38px;
@@ -108,7 +119,7 @@ svg.triggered path {
      font-family: nobel, sans-serif;
      text-align: left;
 }
- h2 span, h3 span, body.page1 main section:nth-of-type(7) span{
+ h2 span, h3 span, body.page1 main section:nth-of-type(7) span {
      content: "";
      display: block;
      height: 90px;
@@ -156,8 +167,18 @@ svg.triggered path {
      top: 5px;
      width: 8px;
 }
+ figcaption {
+     clip: rect(1px 1px 1px 1px);
+    /* IE 6/7 */
+     clip: rect(1px, 1px, 1px, 1px);
+     height: 1px;
+     overflow: hidden;
+     position: absolute;
+     white-space: nowrap;
+     width: 1px;
+}
  li {
-    list-style: none;
+     list-style: none;
 }
  a {
      text-decoration: none;
@@ -200,7 +221,7 @@ svg.triggered path {
      margin-bottom: 100px;
 }
  header nav button {
-    display: none;
+     display: none;
 }
  header nav button span {
      display: block;
@@ -260,7 +281,7 @@ svg.triggered path {
      display: none !important;
 }
  nav a:after {
-    display: none;
+     display: none;
 }
  li {
      align-items: center;
@@ -325,10 +346,10 @@ svg.triggered path {
      transition: all .2s cubic-bezier(.645, .045, .355, 1);
 }
  header nav ul li:last-of-type a span:hover:after {
-    clip-path: polygon(100% 100%, 0 0, 0 100%, 100% 100%);
+     clip-path: polygon(100% 100%, 0 0, 0 100%, 100% 100%);
 }
  header nav ul li:last-of-typ a {
-    color: var(--font-color-white);
+     color: var(--font-color-white);
 }
  header nav a {
      font-size: 2.1rem;
@@ -375,6 +396,9 @@ svg.triggered path {
      opacity: .6;
      z-index: -1 
 }
+ body.page1 main section:first-of-type h4 a, body.page1 main section:first-of-type h4 a:after {
+     color: var(--font-color-white);
+}
  body.page2 main section:first-of-type article:nth-of-type(2) > div {
      position: relative;
      height: 100%;
@@ -415,7 +439,7 @@ svg.triggered path {
      margin-top: 80px;
 }
  body.page2 main section:first-of-type {
-    background-color: #dae4e6;
+     background-color: #dae4e6;
 }
 /*us*/
  body.page1 main section:nth-of-type(2) {
@@ -450,7 +474,7 @@ svg.triggered path {
      width: 50%;
 }
  body.page1 main section:nth-of-type(2) article:nth-of-type(2) section div a {
-    color: var(--accent-color);
+     color: var(--accent-color);
 }
 /*section item-based*/
  body.page2 main {
@@ -458,7 +482,7 @@ svg.triggered path {
      background-size: 11px 11px;
      overflow: hidden;
 }
- body.page2 main section:nth-of-type(2) article{
+ body.page2 main section:nth-of-type(2) article {
      display: flex;
      flex-wrap: nowrap;
      position: relative;
@@ -495,26 +519,26 @@ svg.triggered path {
      background-size: 80%;
      background-position: center;
 }
- body.page2 main section:nth-of-type(2) article ul li:first-of-type:after{
+ body.page2 main section:nth-of-type(2) article ul li:first-of-type:after {
      background-image: url(../img/place.png);
 }
- body.page2 main section:nth-of-type(2) article ul li:nth-of-type(2):after, body.page2 main section:nth-of-type(2) article ul li:nth-of-type(3):after, body.page2 main section:nth-of-type(2) article ul li:nth-of-type(4):after{
+ body.page2 main section:nth-of-type(2) article ul li:nth-of-type(2):after, body.page2 main section:nth-of-type(2) article ul li:nth-of-type(3):after, body.page2 main section:nth-of-type(2) article ul li:nth-of-type(4):after {
      background-image: url(../img/vink.png);
 }
  body.page2 main section:nth-of-type(2) article ul li:first-of-type {
      margin-top: 30px;
 }
- body.page2 main section:nth-of-type(2) article span {
+ body.page2 main section:nth-of-type(2) article div {
      width: 66.666667%;
      color: var(--font-color-black);
      padding: 0 0 0 40px;
 }
- body.page2 main section:nth-of-type(2) article span em {
+ body.page2 main section:nth-of-type(2) article div em {
      position: relative;
      display: inline-flex;
      align-items: center;
 }
- body.page2 main section:nth-of-type(2) article span em:after, body.page2 main section:nth-of-type(2) article span em:before{
+ body.page2 main section:nth-of-type(2) article div em:after, body.page2 main section:nth-of-type(2) article div em:before {
      content: "";
      background-color: var(--accent-color);
      border-radius: 50%;
@@ -525,11 +549,11 @@ svg.triggered path {
      background-position: center;
      background-repeat: no-repeat;
 }
- body.page2 main section:nth-of-type(2) article span em:after{
+ body.page2 main section:nth-of-type(2) article div em:after {
      background-image: url(../img/twitter.png);
      right: -80px;
 }
- body.page2 main section:nth-of-type(2) article span em:before{
+ body.page2 main section:nth-of-type(2) article div em:before {
      background-image: url(../img/fb.png);
      right: -40px;
 }
@@ -539,7 +563,7 @@ svg.triggered path {
      text-align: center;
 }
  body.page1 main section:nth-of-type(3) h3 {
-    margin-bottom: var(--margin-bottom-large);
+     margin-bottom: var(--margin-bottom-large);
 }
  body.page1 main section:nth-of-type(3) article:nth-of-type(2) ul {
      display: flex;
@@ -547,7 +571,7 @@ svg.triggered path {
      justify-content: center;
 }
  body.page1 main section:nth-of-type(3) article:nth-of-type(2) ul h5 {
-    width: 100%;
+     width: 100%;
 }
  body.page1 main section:nth-of-type(3) article:nth-of-type(2) ul li {
      display: flex;
@@ -565,15 +589,17 @@ svg.triggered path {
      margin-bottom: 20px;
 }
 /*section video*/
- body.page2 main section:nth-of-type(3) article img{
+ body.page2 main section:nth-of-type(3) figure img {
      width: 100%;
+     margin: 0;
+     padding: 0;
 }
 /*section grid page2*/
  body.page2 main section:nth-of-type(4) article div {
      display: grid;
      grid-template-columns: minmax(0, 1fr) 30%;
      gap: 0px 0px;
-     grid-template-areas: "binnen cap-titel" "buiten map";
+     grid-template-areas: "binnen cap-titel""buiten map";
 }
  body.page2 main section:nth-of-type(4) article div div:first-of-type {
      grid-area: binnen;
@@ -582,7 +608,7 @@ svg.triggered path {
      grid-template-columns: initial;
 }
  body.page2 main section:nth-of-type(4) article div img {
-    width: 100%;
+     width: 100%;
 }
  body.page2 main section:nth-of-type(4) article div div:nth-of-type(2) {
      grid-area: cap-titel;
@@ -613,7 +639,7 @@ svg.triggered path {
      grid-template-columns: initial;
 }
  body.page2 main section:nth-of-type(4) article div div:nth-of-type(3) img {
-    width: 70%;
+     width: 70%;
 }
  body.page2 main section:nth-of-type(4) article div div:nth-of-type(3) span {
      content: "";
@@ -655,7 +681,7 @@ svg.triggered path {
      margin: auto;
 }
 /*section 50/50 image slider*/
- body.page2 main section:nth-of-type(6){
+ body.page2 main section:nth-of-type(6) {
      padding: 0;
 }
  #comparison {
@@ -682,7 +708,7 @@ svg.triggered path {
      background-size: cover;
      position: absolute;
      width: 50%;
-     box-shadow: 0 5px 10px -2px rgba(0,0,0,0.3);
+     box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.3);
      overflow: hidden;
      bottom: 0;
      height: 100%;
@@ -693,7 +719,7 @@ svg.triggered path {
      position: relative;
      top: -100%;
      left: 0%;
-     background-color: rgba(255,255,255,0.1);
+     background-color: rgba(255, 255, 255, 0.1);
      width: 100%;
 }
  input[type=range]:focus {
@@ -703,10 +729,10 @@ svg.triggered path {
      outline: none;
 }
  input[type=range]::-moz-range-track {
-     -moz-appearance:none;
-     height:15px;
+     -moz-appearance: none;
+     height: 15px;
      width: 98%;
-     background-color: rgba(255,255,255,0.1);
+     background-color: rgba(255, 255, 255, 0.1);
      position: relative;
      outline: none;
 }
@@ -715,7 +741,7 @@ svg.triggered path {
      outline: none;
 }
  input[type=range]::-webkit-slider-thumb {
-     -webkit-appearance:none;
+     -webkit-appearance: none;
      width: 10px;
      height: 600px;
      background: #fff;
@@ -729,20 +755,20 @@ svg.triggered path {
      border-radius: 0;
 }
  input[type=range]:focus::-webkit-slider-thumb {
-     background: rgba(255,255,255,0.5);
+     background: rgba(255, 255, 255, 0.5);
 }
  input[type=range]:focus::-moz-range-thumb {
-     background: rgba(255,255,255,0.5);
+     background: rgba(255, 255, 255, 0.5);
 }
 /*section team*/
  body.page1 main section:nth-of-type(4) h6 {
-    text-align: right;
+     text-align: right;
 }
  body.page1 main section:nth-of-type(4) article h6 {
-    text-align: left;
+     text-align: left;
 }
  body.page1 main section:nth-of-type(4) article:nth-of-type(1) h6 {
-    text-align: right;
+     text-align: right;
 }
  body.page1 main section:nth-of-type(4) article:nth-of-type(1) {
      border-right: solid 10px #000;
@@ -765,6 +791,7 @@ svg.triggered path {
 }
  body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul li {
      width: calc(33.33333% - 30px);
+     position: relative;
      flex-wrap: wrap;
      align-content: flex-start;
      margin: 0;
@@ -772,19 +799,22 @@ svg.triggered path {
      background: var(--bg-color-black);
 }
  body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul li img {
-    width: 100%;
+     width: 100%;
+     margin: 0;
+     max-width: none;
+     z-index: 99;
 }
  body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul li:last-of-type {
-    max-width: none;
+     max-width: none;
 }
  body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul li:nth-child(1n+2) {
-    margin-left: 0px;
+     margin-left: 0px;
 }
  body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul li:nth-child(1) {
-    margin-left: 0px;
+     margin-left: 0px;
 }
  body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul li:nth-child(3n) {
-    margin-right: 0px;
+     margin-right: 0px;
 }
  body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul div {
      display: flex;
@@ -792,27 +822,51 @@ svg.triggered path {
      justify-content: flex-start;
      color: var(--font-color-white);
      padding: 10px 20px;
+     z-index: 9999;
 }
-/* article.team li:after {
-     content: "Lees meer";
+ body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul li figure, body.page2 main section:nth-of-type(9) article:nth-of-type(2) ul li figure {
+     position: relative;
+}
+ body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul li:hover figure:after, body.page2 main section:nth-of-type(9) article:nth-of-type(2) ul li:hover figure:after {
+     content: "Learn More";
+     color: var(--font-color-white);
+     font-size: 25px;
+     font-weight: 400;
+     letter-spacing: 0;
+     line-height: 42px;
+     position: absolute;
+     display: flex;
+     align-items: center;
+     align-content: center;
+     justify-content: center;
+     background: rgba(57, 42, 41, .8);
+     left: 0px;
+     top: 0px;
+     box-sizing: border-box;
+     width: 100%;
+     height: 100%;
+     opacity: 1;
+     transition: all .2s cubic-bezier(0.65, 0.05, 0.36, 1);
+     z-index: 999;
+}
+ body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul li:after, body.page2 main section:nth-of-type(9) article:nth-of-type(2) ul li:after {
+     content: "";
      position: absolute;
      border: 10px solid #000;
-     text-align: center;
-     left: -23px;
-     top: -4px;
-     box-sizing: content-box;
-     width: 33%;
-     height: 33%;
-     opacity: 0 
+     left: -20px;
+     top: -20px;
+     box-sizing: border-box;
+     width: calc(100% + 40px);
+     height: calc(100% + 40px);
+     opacity: 0;
+     transition: all .2s cubic-bezier(0.65, 0.05, 0.36, 1);
 }
- article.team li:hover:after {
-     content: "";
+ body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul li:hover:after, body.page2 main section:nth-of-type(9) article:nth-of-type(2) ul li:hover:after {
      opacity: 1;
 }
- */
 /*section team page 2*/
  body.page2 main section:nth-of-type(9) article h6 {
-    text-align: left;
+     text-align: left;
 }
  body.page2 main section:nth-of-type(9) article:nth-of-type(1) {
      border-right: solid 10px #000;
@@ -840,15 +894,19 @@ svg.triggered path {
      margin: 0;
      margin: 20px;
      background: var(--bg-color-black);
+     position: relative;
 }
  body.page2 main section:nth-of-type(9) article:nth-of-type(2) ul li img {
-    width: 100%;
+     width: 100%;
+     margin: 0;
+     max-width: none;
+     z-index: 99;
 }
  body.page2 main section:nth-of-type(9) article:nth-of-type(2) ul li:last-of-type {
-    max-width: none;
+     max-width: none;
 }
  body.page2 main section:nth-of-type(9) article:nth-of-type(2) ul li:nth-child(1) {
-    margin-left: 0px;
+     margin-left: 0px;
 }
  body.page2 main section:nth-of-type(9) article:nth-of-type(2) ul div {
      display: flex;
@@ -859,7 +917,7 @@ svg.triggered path {
 }
 /*section service*/
  body.page1 main section:nth-of-type(5) {
-    background-color: var(--background-light-g);
+     background-color: var(--background-light-g);
 }
  body.page1 main section:nth-of-type(5) article:first-of-type {
      display: flex;
@@ -879,7 +937,7 @@ svg.triggered path {
      color: var(--font-color-black);
      padding: 60px;
 }
- body.page1 main section:nth-of-type(5) article:nth-of-type(2) section:after{
+ body.page1 main section:nth-of-type(5) article:nth-of-type(2) section:after {
      display: none;
 }
  body.page1 main section:nth-of-type(5) article:nth-of-type(2) section figure {
@@ -887,17 +945,17 @@ svg.triggered path {
      margin-left: 30px;
 }
  main section:nth-of-type(5) article:nth-of-type(2) section figure img {
-    margin: 0px -260px -140px 20px;
+     margin: 0px -260px -140px 20px;
 }
 /*section quote*/
- body.page1 main section:nth-of-type(6), body.page2 main section:nth-of-type(8){
+ body.page1 main section:nth-of-type(6), body.page2 main section:nth-of-type(8) {
      background: url(../img/illustration-inverse.png) no-repeat 50%;
      background-attachment: fixed;
      background-size: cover;
      background-color: var(--background-light-g);
      ;
 }
- body.page1 main section:nth-of-type(6) article, body.page2 main section:nth-of-type(8) article{
+ body.page1 main section:nth-of-type(6) article, body.page2 main section:nth-of-type(8) article {
      display: flex;
      flex-wrap: wrap;
      text-align: center;
@@ -913,7 +971,7 @@ svg.triggered path {
      display: grid;
      grid-template-columns: minmax(0, 1fr) 30%;
      gap: 0px 0px;
-     grid-template-areas: "binnen cap-titel" "buiten map";
+     grid-template-areas: "binnen cap-titel""buiten map";
 }
  body.page1 main section:nth-of-type(7) article div div:first-of-type {
      grid-area: binnen;
@@ -922,7 +980,7 @@ svg.triggered path {
      grid-template-columns: initial;
 }
  body.page1 main section:nth-of-type(7) article div img {
-    width: 100%;
+     width: 100%;
 }
  body.page1 main section:nth-of-type(7) article div div:nth-of-type(2) {
      grid-area: cap-titel;
@@ -953,7 +1011,7 @@ svg.triggered path {
      grid-template-columns: initial;
 }
  body.page1 main section:nth-of-type(7) article div div:nth-of-type(3) img {
-    width: 70%;
+     width: 70%;
 }
  body.page1 main section:nth-of-type(7) article div div:nth-of-type(3) span {
      content: "";
@@ -1005,16 +1063,16 @@ svg.triggered path {
      transition: all .2s cubic-bezier(.645, .045, .355, 1);
 }
  main section:last-of-type:hover::after {
-    clip-path: polygon(100% 100%, 0 0, 0 100%, 100% 100%);
+     clip-path: polygon(100% 100%, 0 0, 0 100%, 100% 100%);
 }
  main section:last-of-type article {
-    text-align: center;
+     text-align: center;
 }
  main section:last-of-type article h2 {
-    text-align: center;
+     text-align: center;
 }
  main section:last-of-type article strong {
-    color: var(--font-color-black);
+     color: var(--font-color-black);
 }
  main section:last-of-type article a {
      border: 6px solid #000;
@@ -1030,7 +1088,7 @@ svg.triggered path {
      position: initial;
 }
  main section:last-of-type article a:hover {
-    background: var(--bg-color-black);
+     background: var(--bg-color-black);
 }
 /*footer sectie*/
  footer {
@@ -1051,13 +1109,13 @@ svg.triggered path {
      flex-wrap: wrap;
 }
  footer article div {
-    margin-bottom: 40px;
+     margin-bottom: 40px;
 }
  footer article div:first-of-type {
-    width: 40%;
+     width: 40%;
 }
  footer article div:last-of-type {
-    width: 60%;
+     width: 60%;
 }
  footer div:nth-of-type(2) div {
      width: 66.666666%;
@@ -1065,7 +1123,7 @@ svg.triggered path {
      padding: 0 40px;
 }
  footer div:first-of-type img {
-    margin-bottom: 50px;
+     margin-bottom: 50px;
 }
  footer div:first-of-type ul {
      column-count: 2;
@@ -1092,7 +1150,6 @@ svg.triggered path {
  footer input[type="email"] {
      background: none;
      border: 4px solid var(--accent-color);
-     ;
      border-right: none;
      color: var(--font-color-white);
      letter-spacing: 2px;
@@ -1104,9 +1161,17 @@ svg.triggered path {
      line-height: 20px;
      padding: 14px 15px;
      width: 100%;
+     background: linear-gradient(to right, var(--accent-color) 50%, transparent 50%);
+     background-size: 200% 100%;
+     background-position: right bottom;
+     transition: all .5s ease-out;
+}
+ footer input[type="email"]:hover {
+     background-position: left bottom;
+     color: var(--font-color-white);
 }
  footer form button {
-     background: red;
+     background: var(--accent-color);
      padding: 20px 25px;
      white-space: nowrap;
      box-sizing: border-box;
@@ -1122,6 +1187,10 @@ svg.triggered path {
      text-decoration: none;
      text-transform: uppercase;
      border: none;
+     transition: .5s;
+}
+ footer form button:hover {
+     background: var(--bg-color-black);
 }
 /*copy footer*/
  footer section:first-of-type {
@@ -1150,10 +1219,10 @@ svg.triggered path {
      font-weight: 300;
 }
  footer section:first-of-type li:last-of-type {
-    padding-right: 0px;
+     padding-right: 0px;
 }
  footer section:first-of-type li:last-of-type:after {
-    display: none;
+     display: none;
 }
  footer section:first-of-type li:after {
      content: "|";
@@ -1170,14 +1239,14 @@ svg.triggered path {
          margin-bottom: 0px;
     }
      nav a img {
-        height: 40px;
+         height: 40px;
     }
      nav {
          padding: 20px 4%;
          transition: 0.3s;
     }
      nav.active {
-        padding-bottom: 100px;
+         padding-bottom: 100px;
     }
      header nav ul {
          position: fixed;
@@ -1203,7 +1272,7 @@ svg.triggered path {
          display: block;
     }
      header nav ul li {
-        margin: 2.5rem 0;
+         margin: 2.5rem 0;
     }
      header nav button {
          display: block;
@@ -1213,7 +1282,7 @@ svg.triggered path {
          border: none;
     }
      header nav button.active span {
-        background-color: transparent;
+         background-color: transparent;
     }
      header nav button.active span:before {
          opacity: 1;
@@ -1238,11 +1307,11 @@ svg.triggered path {
          border-bottom: none;
     }
      header nav ul li:last-of-type a span {
-        width: 100%;
+         width: 100%;
     }
     /* section secription*/
      body.page1 main section:nth-of-type(2) article:nth-of-type(2) section figure {
-        width: 50%;
+         width: 50%;
     }
      body.page1 main section:nth-of-type(2) h2 span {
          left: 0px;
@@ -1310,7 +1379,7 @@ svg.triggered path {
          flex-wrap: wrap;
     }
      body.page1 main section:nth-of-type(2) article:nth-of-type(2) section figure {
-        width: 100%;
+         width: 100%;
     }
      figure img {
          margin: 0 0 20px -40px;
@@ -1321,11 +1390,25 @@ svg.triggered path {
          width: 100%;
          margin-top: 30px;
     }
+     body.page1 main section:nth-of-type(5) article:nth-of-type(2) section figure {
+         margin-right: 0px;
+         margin-left: 0px;
+    }
+     body.page1 main section:nth-of-type(5) article:nth-of-type(2) section {
+         margin-right: 0;
+         display: flex;
+         flex-wrap: wrap;
+         padding: 30px;
+    }
+     body.page1 main section:nth-of-type(5) article:nth-of-type(2) section figure img {
+         margin: 0 0 20px -70px;
+         max-width: calc(100% + 80px);
+    }
     /* section value*/
      body.page1 main section:nth-of-type(3) article:nth-of-type(2) ul li {
-        width: 50%;
+         width: 50%;
     }
-     h2 span, h3 span, main section:nth-of-type(7) span{
+     h2 span, h3 span, main section:nth-of-type(7) span {
          height: 45px;
          left: -30px;
          top: -15px;
@@ -1333,7 +1416,7 @@ svg.triggered path {
     }
     /* section team*/
      body.page1 main section:nth-of-type(4) article:nth-of-type(1) {
-        margin-right: 30px;
+         margin-right: 30px;
     }
      body.page1 main section:nth-of-type(4) article:nth-of-type(1) {
          border-right: solid 10px #000;
@@ -1344,23 +1427,23 @@ svg.triggered path {
          margin: 0 0 0 auto;
     }
      body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul li {
-        width: calc(50% - 20px);
+         width: calc(50% - 20px);
     }
      body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul li:nth-child(2n) {
-        margin-right: 0px;
+         margin-right: 0px;
     }
      body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul li:nth-child(1n) {
-        margin-right: 0px;
+         margin-right: 0px;
     }
      body.page1 main section:nth-of-type(4) article:nth-of-type(2) h6 {
-        text-align: left;
+         text-align: left;
     }
     /* section team page 2*/
      body.page2 main section:nth-of-type(9) article:nth-of-type(2) ul {
-        justify-content: space-between;
+         justify-content: space-between;
     }
      body.page2 main section:nth-of-type(9) article:nth-of-type(1) {
-        margin-right: 30px;
+         margin-right: 30px;
     }
      body.page2 main section:nth-of-type(9) article:nth-of-type(1) {
          border-right: solid 10px #000;
@@ -1371,16 +1454,16 @@ svg.triggered path {
          margin: 0 30px 0 auto;
     }
      body.page2 main section:nth-of-type(9) article:nth-of-type(2) ul li {
-        width: calc(50% - 20px);
+         width: calc(50% - 20px);
     }
      body.page2 main section:nth-of-type(9) article:nth-of-type(2) ul li:nth-child(2n) {
-        margin-right: 0px;
+         margin-right: 0px;
     }
      body.page2 main section:nth-of-type(9) article:nth-of-type(2) ul li:nth-child(1n) {
-        margin-right: 0px;
+         margin-right: 0px;
     }
      body.page2 main section:nth-of-type(9) article:nth-of-type(2) h6 {
-        text-align: left;
+         text-align: left;
     }
     /* section service*/
      body.page1 main section:nth-of-type(5) h3 {
@@ -1393,12 +1476,9 @@ svg.triggered path {
          top: -15px;
          width: 45px;
     }
-     body.page1 main section:nth-of-type(5) article:nth-of-type(2) section {
-        margin-right: 0;
-    }
      body.page1 main section:nth-of-type(5) article:nth-of-type(2) section figure img {
          margin: 0 0 20px -70px;
-         max-width: calc(100% + 20px);
+         max-width: calc(100% + 70px);
     }
     /* section slider*/
      body.page2 main section:nth-of-type(6) #comparison {
@@ -1407,14 +1487,14 @@ svg.triggered path {
     /* section map*/
      body.page1 main section:nth-of-type(7) article div {
          grid-template-columns: 1fr;
-         grid-template-areas: "cap-titel" "binnen" "buiten " "map";
+         grid-template-areas: "cap-titel""binnen""buiten ""map";
     }
      body.page1 main section:nth-of-type(7) article div div:nth-of-type(3) img {
-        width: 100%;
+         width: 100%;
     }
      body.page1 main section:nth-of-type(7) article div div:nth-of-type(3) span {
          height: 45px;
-         left: 1px;
+         left: -20px;
          top: -20px;
          width: 45px;
     }
@@ -1429,10 +1509,10 @@ svg.triggered path {
     /* section grid page 2*/
      body.page2 main section:nth-of-type(4) article div {
          grid-template-columns: 1fr;
-         grid-template-areas: "cap-titel" "binnen" "buiten " "map";
+         grid-template-areas: "cap-titel""binnen""buiten ""map";
     }
      body.page2 main section:nth-of-type(4) article div div:nth-of-type(3) img {
-        width: 100%;
+         width: 100%;
     }
      body.page2 main section:nth-of-type(4) article div div:nth-of-type(3) span {
          height: 45px;
@@ -1449,17 +1529,17 @@ svg.triggered path {
          left: 0px;
     }
      footer article div:first-of-type {
-        width: 100%;
+         width: 100%;
     }
      footer article div:last-of-type {
          width: 100%;
          margin-bottom: 0px;
     }
      footer div:nth-of-type(2) div {
-        width: 100%;
+         width: 100%;
     }
      footer article {
-        background-position: 50%;
+         background-position: 50%;
     }
 }
  @media only screen and (max-width: 767px) {
@@ -1481,7 +1561,7 @@ svg.triggered path {
          line-height: 36px;
     }
      section {
-        padding: 75px 0;
+         padding: 75px 0;
     }
     /* section hero*/
      body.page1 main section:first-of-type {
@@ -1500,13 +1580,13 @@ svg.triggered path {
     }
     /* section usps*/
      body.page2 main section:nth-of-type(2) article {
-        flex-wrap: wrap;
+         flex-wrap: wrap;
     }
-     body.page2 main section:nth-of-type(2) article ul, body.page2 main section:nth-of-type(2) article span{
+     body.page2 main section:nth-of-type(2) article ul, body.page2 main section:nth-of-type(2) article div {
          width: 100%;
     }
-     body.page2 main section:nth-of-type(2) article span{
-        padding: 0;
+     body.page2 main section:nth-of-type(2) article div {
+         padding: 0;
     }
     /* section grid page 2*/
      body.page2 main section:nth-of-type(4) article div div:nth-of-type(3) span {
@@ -1514,7 +1594,7 @@ svg.triggered path {
          top: -20px;
     }
     /* section narrow text page 2*/
-     body.page2 main section:nth-of-type(5) h3, body.page2 main section:nth-of-type(7) h3{
+     body.page2 main section:nth-of-type(5) h3, body.page2 main section:nth-of-type(7) h3 {
          padding-left: 30px;
     }
      body.page2 main h3 span {
@@ -1522,14 +1602,14 @@ svg.triggered path {
     }
     /* section value*/
      body.page1 main section:nth-of-type(3) article:nth-of-type(2) ul li {
-        width: 100%;
+         width: 100%;
     }
      body.page1 main section:nth-of-type(3) article:nth-of-type(2) ul img {
-        width: 20%;
+         width: 20%;
     }
     /* section team*/
      body.page1 main section:nth-of-type(4) article:nth-of-type(2) ul li {
-        width: 100%;
+         width: 100%;
     }
      body.page1 main section:nth-of-type(4) h5 {
          width: 100%;
@@ -1541,7 +1621,7 @@ svg.triggered path {
          margin-left: 0px;
     }
      body.page2 main section:nth-of-type(9) article:nth-of-type(2) ul li {
-        width: 100%;
+         width: 100%;
     }
      body.page2 main section:nth-of-type(9) h5 {
          width: 100%;
@@ -1549,20 +1629,20 @@ svg.triggered path {
     }
     /* section service*/
      body.page1 main section:nth-of-type(5) article:nth-of-type(2) section figure img {
-         margin: -20px 0 20px -70px;
-         max-width: calc(100% + 60px);
+         margin: 0px 0 20px -40px;
+         max-width: calc(100% + 40px);
     }
     /* section map*/
-     body.page1 main section:nth-of-type(7) article div div:nth-of-type(1), body.page1 main section:nth-of-type(7) article div div:nth-of-type(2), body.page1 main section:nth-of-type(7) article div div:nth-of-type(3), body.page1 main section:nth-of-type(7) article div div:nth-of-type(4){
-        padding: 0;
+     body.page1 main section:nth-of-type(7) article div div:nth-of-type(1), body.page1 main section:nth-of-type(7) article div div:nth-of-type(2), body.page1 main section:nth-of-type(7) article div div:nth-of-type(3), body.page1 main section:nth-of-type(7) article div div:nth-of-type(4) {
+         padding: 0;
     }
      body.page1 main section:nth-of-type(7) article div div:nth-of-type(4) span {
          left: -19px;
          top: -20px;
     }
     /* section grid page 2*/
-     body.page2 main section:nth-of-type(4) article div div:nth-of-type(1), body.page2 main section:nth-of-type(4) article div div:nth-of-type(2), body.page2 main section:nth-of-type(4) article div div:nth-of-type(3), body.page2 main section:nth-of-type(4) article div div:nth-of-type(4){
-        padding: 0;
+     body.page2 main section:nth-of-type(4) article div div:nth-of-type(1), body.page2 main section:nth-of-type(4) article div div:nth-of-type(2), body.page2 main section:nth-of-type(4) article div div:nth-of-type(3), body.page2 main section:nth-of-type(4) article div div:nth-of-type(4) {
+         padding: 0;
     }
      body.page2 main section:nth-of-type(4) article div div:nth-of-type(4) span {
          left: -19px;
@@ -1570,19 +1650,19 @@ svg.triggered path {
     }
     /* footer*/
      footer div:first-of-type ul {
-        column-count: 1;
+         column-count: 1;
     }
      footer section:first-of-type {
-        flex-wrap: wrap;
+         flex-wrap: wrap;
     }
      footer section:first-of-type ul, footer section:first-of-type p {
          width: 100%;
     }
      footer section:first-of-type ul {
-        justify-content: flex-start;
+         justify-content: flex-start;
     }
 }
- @media only screen and (max-width: 480px){
+ @media only screen and (max-width: 480px) {
      body.page2 main section:first-of-type article:nth-of-type(2) ul {
          bottom: -30px;
     }

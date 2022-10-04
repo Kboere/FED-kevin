@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -15,25 +15,25 @@
     <!--    https://codepen.io/alvarotrigo/pen/MWEJEWG-->
     <header>
         <nav>
-            <a href="index.html"><img src="img/logo.svg" alt="logo website"></a>
+            <a title="link naar de homepagina" href="index.html"><img src="img/logo.svg" alt="logo website"></a>
             <ul>
                 <li>
-                    <a href="#">PORTFOLIO</a>
+                    <a title="link naar de portfolio pagina" href="#">PORTFOLIO</a>
                 </li>
                 <li>
-                    <a href="#">SERVICES</a>
+                    <a title="link naar de services pagina" href="#">SERVICES</a>
                 </li>
                 <li>
-                    <a href="item.html">INDUSTRIES</a>
+                    <a title="link naar de industries pagina" href="item.html">INDUSTRIES</a>
                 </li>
                 <li>
-                    <a href="#">ABOUT</a>
+                    <a title="link naar de about pagina" href="#">ABOUT</a>
                 </li>
                 <li>
-                    <a href="#"><span>START YOUR PROJECT</span></a>
+                    <a title="link naar knop om jouw project te starten" href="#"><span>START YOUR PROJECT</span></a>
                 </li>
             </ul>
-            <button>
+            <button aria-label="knop voor contact opnemen" type="button" name="contactknop">
                 <span></span>
             </button>
         </nav>
@@ -42,7 +42,11 @@
     <main>
 
         <section>
+            <h2 aria-hidden="false">Slider met foto's</h2>
+
             <article>
+                <h2 aria-hidden="true">titel</h2>
+
                 <a href="#"> BACK TO PREVIOUS</a>
             </article>
 
@@ -51,9 +55,9 @@
 
                 <div>
                     <div>
-                        <img src="img/Mitchums-Cover.png" alt="img1" >
-                        <img src="img/MITCHUM-Hero-Banner-2.jpeg" alt="img2" >
-                        <img src="img/MITCHUM-Hero-Banner-3.jpeg" alt="img3" >
+                        <img src="img/Mitchums-Cover.png" alt="img1">
+                        <img src="img/MITCHUM-Hero-Banner-2.jpeg" alt="img2">
+                        <img src="img/MITCHUM-Hero-Banner-3.jpeg" alt="img3">
                     </div>
                 </div>
 
@@ -67,7 +71,10 @@
         </section>
 
         <section>
+            <h2 aria-hidden="false">Algemene informatie over bedrijf</h2>
+
             <article>
+                <h2 aria-hidden="true">titel</h2>
 
                 <ul>
                     <li>Ozark, Missouri</li>
@@ -75,26 +82,32 @@
                     <li>Local retailer since 1965</li>
                     <li>5,500 sq. ft. site</li>
                 </ul>
-                <span>
+                <div>
                     <p>This expansive project resulted in a larger showroom, additional office space, a vault, a client consultation room, and guest restroom. Inside, you will find the latest trends in jewelry store design and technology. Together with the interior remodel, the entry was revamped, including new back-lit LED metal signage. Guests enter the store beneath a unique new cladding material—a rainscreen wood system called Machiche (Machee-chay) which is a long-lasting Brazilian hardwood.</p>
 
                     <p>Since re-opening, Mitchum Jewelers has seen a huge spike in foot traffic as well as sales. With the additional space, they’ve been able to grow their staff, introduce new lines of jewelry, and are enjoying new flexibility in how they showcase products and interact with customers.</p>
 
                     <em>SHARE</em>
 
-                </span>
+                </div>
             </article>
         </section>
 
         <section>
+            <h2 aria-hidden="false">Een video van het bedrijf</h2>
             <article>
-                <img src="img/video.jpg" alt="foto van een video">
+                <h2 aria-hidden="true">titel</h2>
+                <figure>
+                    <figcaption>foto van de video</figcaption>
+                    <img src="img/video.jpg" alt="foto van een video">
+                </figure>
             </article>
         </section>
 
         <section>
-            <article>
+            <h2 aria-hidden="false">collage over bedrijf</h2>
 
+            <article>
                 <div>
                     <div><img src="img/MITCHUM-Collage-1.jpeg" alt="foto van binnenkant van het kantoor"></div>
                     <div>
@@ -102,11 +115,11 @@
                     </div>
                     <div><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
                                 <defs>
-                                    <clipPath >
+                                    <clipPath>
                                         <rect width="150" height="150" x="0" y="0"></rect>
                                     </clipPath>
                                 </defs>
-                                <g >
+                                <g>
                                     <g style="display: block;" transform="matrix(1,0,0,1,459,133.5)" opacity="1">
                                         <g opacity="1" transform="matrix(1,0,0,1,0,0)">
                                             <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(255,65,41)" stroke-opacity="1" stroke-width="10" d=" M-317,-65 C-317,-65 -317,-125 -317,-125 C-317,-125 -451,-125 -451,-125 C-451,-125 -451,8 -451,8 C-451,8 -394,8 -394,8"></path>
@@ -120,10 +133,12 @@
         </section>
 
         <section>
+            <h2 aria-hidden="false">Sectie over bedrijf</h2>
+
             <article>
                 <h3><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
                             <defs>
-                                <clipPath  >
+                                <clipPath>
                                     <rect width="150" height="150" x="0" y="0"></rect>
                                 </clipPath>
                             </defs>
@@ -143,18 +158,22 @@
 
         <!--        https://codepen.io/dudleystorey/pen/DJqNKP-->
         <section>
+            <h2 aria-hidden="true">titel</h2>
 
             <div id="comparison">
                 <figure>
+                    <figcaption>foto van toen en nu</figcaption>
                     <div id="divisor"></div>
                 </figure>
-                <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor()">
+                <input aria-label="slider van de foto's" type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor()">
             </div>
 
         </section>
 
 
         <section>
+            <h2 aria-hidden="false">Slider van toen en nu</h2>
+
             <article>
                 <h3><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
                             <defs>
@@ -176,7 +195,11 @@
         </section>
 
         <section>
+            <h2 aria-hidden="false">Quote van medewerker</h2>
+
             <article>
+                <h2 aria-hidden="true">titel</h2>
+
                 <blockquote>
                     "I am beyond delighted to have partnered with Torgerson Design Partners. Working with their team has been amazing! From beginning to end, TDP was extremely involved and worked efficiently to make sure I was happy and that the project stayed on course. I was surprised and appreciative of how involved TDP was during the bid process and all throughout construction."
                 </blockquote>
@@ -186,6 +209,7 @@
         </section>
 
         <section>
+            <h2 aria-hidden="true">title</h2>
 
             <article>
                 <h2><strong>Project Team</strong></h2>
@@ -193,14 +217,14 @@
 
             <article>
                 <ul>
-                    <li><img src="img/John-Website.png" alt="foto van John">
+                    <li><figure><figcaption>foto van medewerker</figcaption><img src="img/John-Website.png" alt="foto van John"></figure>
                         <div>
                             <h5>John Torgerson</h5>
                             <h6>Principal Architect and Founder <strong>/</strong> AIA | NCARB</h6>
                         </div>
                     </li>
 
-                    <li><img src="img/kyle-bw2.png" alt="foto van Kyle">
+                    <li><figure><figcaption>foto van medewerker</figcaption><img src="img/kyle-bw2.png" alt="foto van Kyle"></figure>
                         <div>
                             <h5>Kyle Rader</h5>
                             <h6>Architect and Senior Project Manager <strong>/</strong> AIA | NCARB </h6>
@@ -212,11 +236,8 @@
         </section>
 
 
-
-
-
-
         <section>
+            <h2 aria-hidden="true">titel</h2>
             <article>
                 <h2>Let's talk about <strong>your</strong> project.</h2>
                 <a href="#">Get started</a>
@@ -246,13 +267,14 @@
                     <p>Stay connected with us! Get updates, follow projects from sketchpad to completion, and more.</p>
                     <form>
                         <input type="email" aria-label="veld voor email-adres" placeholder="enter your email address">
-                        <button type="submit" name="verzendknop" value="submitted_value">></button>
+                        <button aria-label="verzendknop van formulier" type="submit" name="verzendknop" value="submitted_value">></button>
                     </form>
                 </div>
             </div>
         </article>
 
         <section>
+            <h2 aria-hidden="false">Copyright footer</h2>
             <p>© Copyright 2022 Torgerson Design Partners.</p>
             <ul>
                 <li>Pivacy Policy</li>

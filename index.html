@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -15,25 +15,25 @@
     <!--    https://codepen.io/alvarotrigo/pen/MWEJEWG-->
     <header>
         <nav>
-            <a href="#"><img src="img/logo.svg" alt="logo website"></a>
+            <a title="link naar de homepagina" href="#"><img src="img/logo.svg" alt="logo website"></a>
             <ul>
                 <li>
-                    <a href="#">PORTFOLIO</a>
+                    <a title="link naar de portfolio pagina" href="#">PORTFOLIO</a>
                 </li>
                 <li>
-                    <a href="#">SERVICES</a>
+                    <a title="link naar de services pagina" href="#">SERVICES</a>
                 </li>
                 <li>
-                    <a href="item.html">INDUSTRIES</a>
+                    <a title="link naar de industries pagina" href="item.html">INDUSTRIES</a>
                 </li>
                 <li>
-                    <a href="#">ABOUT</a>
+                    <a title="link naar de about pagina" href="#">ABOUT</a>
                 </li>
                 <li>
-                    <a href="#"><span>START YOUR PROJECT</span></a>
+                    <a title="link naar knop om jouw project te starten" href="#"><span>START YOUR PROJECT</span></a>
                 </li>
             </ul>
-            <button>
+            <button aria-label="knop voor contact opnemen" type="button" name="contactknop">
                 <span></span>
             </button>
         </nav>
@@ -42,39 +42,45 @@
     <main>
 
         <section>
+            <h2 aria-hidden="true">titel</h2>
             <article>
                 <h1>Who <strong>We</strong> Are.</h1>
-                <h4>contact tdp</h4>
+                <h4><a title="link naar de contact pagina" href="#">contact tdp</a></h4>
             </article>
         </section>
-        
+
 
         <section>
+            <h2 aria-hidden="false">Titel van een USP</h2>
             <article>
                 <h2><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
-                        <defs>
-                            <clipPath >
-                                <rect width="150" height="150" x="0" y="0"></rect>
-                            </clipPath>
-                        </defs>
-                        <g>
-                            <g style="display: block;" transform="matrix(1,0,0,1,459,133.5)" opacity="1">
-                                <g opacity="1" transform="matrix(1,0,0,1,0,0)">
-                                    <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(255,65,41)" stroke-opacity="1" stroke-width="10" d=" M-317,-65 C-317,-65 -317,-125 -317,-125 C-317,-125 -451,-125 -451,-125 C-451,-125 -451,8 -451,8 C-451,8 -394,8 -394,8"></path>
+                            <defs>
+                                <clipPath>
+                                    <rect width="150" height="150" x="0" y="0"></rect>
+                                </clipPath>
+                            </defs>
+                            <g>
+                                <g style="display: block;" transform="matrix(1,0,0,1,459,133.5)" opacity="1">
+                                    <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                        <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(255,65,41)" stroke-opacity="1" stroke-width="10" d=" M-317,-65 C-317,-65 -317,-125 -317,-125 C-317,-125 -451,-125 -451,-125 C-451,-125 -451,8 -451,8 C-451,8 -394,8 -394,8"></path>
+                                    </g>
                                 </g>
                             </g>
-                        </g>
-                    </svg></span>We are a <strong>team</strong> that works to build the best solutions for <strong>our clients'</strong> needs.</h2>
+                        </svg></span>We are a <strong>team</strong> that works to build the best solutions for <strong>our clients'</strong> needs.</h2>
             </article>
 
             <article>
+                <h2 aria-hidden="false">Algemene informatie TDP</h2>
                 <section>
-                    <figure><img src="img/team.png" alt="foto van het team"></figure>
+                    <h2 aria-hidden="true">titel</h2>
+                    <figure>
+                        <figcaption>Foto van het team</figcaption><img src="img/team.png" alt="foto van het team">
+                    </figure>
 
                     <div>
                         <p>Founded in 2010, Torgerson Design Partners is a full-service architecture firm and commercial design group located in Ozark, Missouri. As we’ve grown from a team of 2 to 31, we’ve also grown our capabilities to meet our clients’ needs—from site selection and planning, to design and development, to marketing and management. We combine old-fashioned conversation with cutting-edge technology to ensure we’re delivering your vision every step of the way.</p>
 
-                        <a href="#">WORK WITH US</a>
+                        <a title="Link naar de contact pagina" href="#">WORK WITH US</a>
                     </div>
                 </section>
             </article>
@@ -82,10 +88,12 @@
 
 
         <section>
+            <h2 aria-hidden="false">Sectie met USP's</h2>
+
             <article>
                 <h3><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
                             <defs>
-                                <clipPath >
+                                <clipPath>
                                     <rect width="150" height="150" x="0" y="0"></rect>
                                 </clipPath>
                             </defs>
@@ -118,7 +126,7 @@
                     </li>
                     <li><img src="img/relatie.png" alt="relatie icon">
                         <h5>Relationship</h5>
-                        <p>We build relationships. This is the heart of our company because we want to be a true partner throughout your entire building process.</p>
+                        <p>We build relationships. This is the heart of our company because we want to be a false partner throughout your entire building process.</p>
                     </li>
                     <li><img src="img/crea.png" alt="creativiteit icon">
                         <h5>Creativity</h5>
@@ -129,71 +137,71 @@
         </section>
 
         <section>
-
+            <h2 aria-hidden="false">Lijst van werkenemers</h2>
             <article>
                 <h2><strong>What We're Made Of</strong></h2>
-                <h6>31 PEOPLE + AN OFFICE DOG + EXCESSIVE AMOUNTS OF COFFEE + 1 MISSION.</h6><a href="#">View careers</a>
+                <h6>31 PEOPLE + AN OFFICE DOG + EXCESSIVE AMOUNTS OF COFFEE + 1 MISSION.</h6><a title="Link naar de vacature pagina" href="#">View careers</a>
             </article>
 
             <article>
                 <ul>
-                    <li><img src="img/John-Website.png" alt="foto van John">
+                    <li><figure><figcaption>foto van werknemer</figcaption><img src="img/John-Website.png" alt="foto van John"></figure>
                         <div>
                             <h5>John Torgerson</h5>
                             <h6>Principal Architect and Founder <strong>/</strong> AIA | NCARB</h6>
                         </div>
                     </li>
 
-                    <li><img src="img/Adam-2-2.jpg.png" alt="foto van Adam">
+                    <li><figure><figcaption>foto van medewerker</figcaption><img src="img/Adam-2-2.jpg.png" alt="foto van Adam"></figure>
                         <div>
                             <h5>Adam Kreher</h5>
                             <h6>Principal Architect and Partner <strong>/</strong> AIA | NCARB | LEED AP </h6>
                         </div>
                     </li>
 
-                    <li><img src="img/Aaron-3.jpg.png" alt="foto van Aaron">
+                    <li><figure><figcaption>foto van medewerker</figcaption><img src="img/Aaron-3.jpg.png" alt="foto van Aaron"></figure>
                         <div>
                             <h5>Aaron King</h5>
                             <h6>Architect and Senior Project Manager <strong>/</strong> NCARB </h6>
                         </div>
                     </li>
 
-                    <li><img src="img/Jeff-3.jpg.png" alt="foto van Jeff">
+                    <li><figure><figcaption>foto van medewerker</figcaption><img src="img/Jeff-3.jpg.png" alt="foto van Jeff"></figure>
                         <div>
                             <h5>Jeff Masters</h5>
                             <h6>Senior Project Manager</h6>
                         </div>
                     </li>
 
-                    <li><img src="img/kyle-bw2.png" alt="foto van Kyle">
+                    <li><figure><figcaption>foto van medewerker</figcaption><img src="img/kyle-bw2.png" alt="foto van Kyle"></figure>
                         <div>
                             <h5>Kyle Rader</h5>
                             <h6>Architect and Senior Project Manager <strong>/</strong> AIA | NCARB </h6>
                         </div>
                     </li>
 
-                    <li><img src="img/Justin-Website.png" alt="foto van Justin">
+                    <li><figure><figcaption>foto van medewerker</figcaption><img src="img/Justin-Website.png" alt="foto van Justin"></figure>
                         <div>
                             <h5>Justin W. Petersburg </h5>
                             <h6>Architect <strong>/</strong> AIA | NCARB</h6>
                         </div>
                     </li>
 
-                    <li><img src="img/Mike-bw.png" alt="foto van Mike">
+                    <li><figure><figcaption>foto van medewerker</figcaption><img src="img/Mike-bw.png" alt="foto van Mike"></figure>
                         <div>
                             <h5>Mike Sebben</h5>
                             <h6>Architect <strong>/</strong> AIA | NCARB</h6>
                         </div>
                     </li>
 
-                    <li><img src="img/Lacey-2-2.jpg.png" alt="foto van Lacey">
+                    <li><figure><figcaption>foto van medewerker</figcaption><img src="img/Lacey-2-2.jpg.png" alt="foto van Lacey"></figure>
                         <div>
                             <h5>Lacey Provance</h5>
                             <h6>Office Administrator</h6>
                         </div>
                     </li>
 
-                    <li><img src="img/jordan.png" alt="foto van Jordan">
+                    <li><figure><figcaption>foto van medewerker</figcaption><img src="img/jordan.png" alt="foto van Jordan"></figure>
                         <div>
                             <h5>Jordan Ryan</h5>
                             <h6>Project Coordinator</h6>
@@ -201,14 +209,14 @@
                     </li>
                 </ul>
             </article>
-
         </section>
 
         <section>
+            <h2 aria-hidden="false">Titel van een USP</h2>
             <article>
                 <h3><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
                             <defs>
-                                <clipPath >
+                                <clipPath>
                                     <rect width="150" height="150" x="0" y="0"></rect>
                                 </clipPath>
                             </defs>
@@ -223,20 +231,26 @@
             </article>
 
             <article>
+                <h2 aria-hidden="false">Informatie over diensten</h2>
                 <section>
-                    <figure><img src="img/ABOUT-Commercial-Design-Group-We-Believe.jpeg" alt="foto van samenwerking"></figure>
+                    <h2 aria-hidden="true">titel</h2>
+                    <figure>
+                        <figcaption>Foto van samenwerking</figcaption><img src="img/ABOUT-Commercial-Design-Group-We-Believe.jpeg" alt="foto van samenwerking">
+                    </figure>
 
                     <div>
                         <p>We believe that collaboration and communication are the basis of our success. That the needs and vision of our clients, and the unique direction of each project, matter more than showcasing our particular style. That strong communities are enhanced by spaces that are beautiful, functional, and welcoming.</p>
 
-                        <a title="Learn more about TDP's commercial design group services." href="#">View our services</a>
+                        <a title="Leer meer over de services die TDP te bieden heeft" href="#">View our services</a>
                     </div>
                 </section>
             </article>
         </section>
 
         <section>
+            <h2 aria-hidden="false">Quote van werknemer</h2>
             <article>
+                <h2 aria-hidden="true">titel</h2>
                 <blockquote>
                     "We understand that customer service is first and foremost, it is in our mission and our daily routine. Treating clients and people in general how they deserve to be treated is how we work at TDP."
                 </blockquote>
@@ -245,8 +259,9 @@
             </article>
 
         </section>
-        
+
         <section>
+            <h2 aria-hidden="false">collage over TDP</h2>
             <article>
 
                 <div>
@@ -256,7 +271,7 @@
                     </div>
                     <div><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
                                 <defs>
-                                    <clipPath >
+                                    <clipPath>
                                         <rect width="150" height="150" x="0" y="0"></rect>
                                     </clipPath>
                                 </defs>
@@ -268,20 +283,21 @@
                                     </g>
                                 </g>
                             </svg></span><img src="img/office-2.jpeg" alt="foto van buitenkant van het kantoor"></div>
-                    <div><img src="img/map.png" alt="foto van een kaart"><a title="#" href="#">Visit us</a></div>
+                    <div><img src="img/map.png" alt="foto van een kaart"><a title="Kom naar onze locatie toe" href="#">Visit us</a></div>
                 </div>
             </article>
         </section>
 
         <section>
+            <h2 aria-hidden="true">titel</h2>
             <article>
                 <h2>Let's <strong>build</strong> something great.</h2>
-                <a href="#">Work with us</a>
+                <a title="Kom samen met ons aan een project werken" href="#">Work with us</a>
             </article>
         </section>
 
     </main>
-    
+
     <footer>
         <article>
             <div>
@@ -304,13 +320,14 @@
                     <p>Stay connected with us! Get updates, follow projects from sketchpad to completion, and more.</p>
                     <form>
                         <input type="email" aria-label="veld voor email-adres" placeholder="enter your email address">
-                        <button type="submit" name="verzendknop" value="submitted_value">></button>
+                        <button aria-label="verzendknop van formulier" type="submit" name="verzendknop" value="submitted_value">></button>
                     </form>
                 </div>
             </div>
         </article>
 
         <section>
+            <h2 aria-hidden="false">Copyright footer</h2>
             <p>© Copyright 2022 Torgerson Design Partners.</p>
             <ul>
                 <li>Pivacy Policy</li>
@@ -318,7 +335,6 @@
                 <li>Site by <strong>Mostly Serious</strong></li>
             </ul>
         </section>
-
     </footer>
 
 

@@ -85,10 +85,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   In de video ieronder zul je zien dat het wel lukt maar je moet er veel moeite voor doen en soms lukt het dan ook gwn niet.
   
   video staat hier!
-  <video controls width="80%">
-    <source src="video/test-shocks.mp4"
-            type="video/mp4">
-</video>
+  
+  
+
+https://user-images.githubusercontent.com/112857604/193881713-7bc4dbb5-6368-4cb1-ac6e-16bfad572a7b.mp4
+
   
   Verder is het ook vrij irritant wanneer je niet al je vingers kunt gebruiken. als ik bijvoorbeeld iets wilde gaan opzoeken in de website doe je dat vaaak met al je vingers. met het elastiekkje om 3 vingers heen gebonden lukte dit slechter en drukte je soms een extra toets in die je niet wilde.
 

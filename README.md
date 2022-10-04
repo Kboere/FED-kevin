@@ -72,32 +72,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
 
   <b>Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)</b>
+  Ik moet er sowieso voor orgen dat alle teksten in een "p" tag staan. Dat zou 1 probleem denk ik al verhelpen en is semantisch ook correcter.
 
 
   #### <h3>Muis en Toetsenbord </h3>
   <b>Hier korte omschrijving (met indien nodig afbeeldingen)</b>
-
-  <b> Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)</b>
-
+  De tab toets werkt goed en met de pijltjes (boven en onder) kun je gemakkelijk door de website heen
 
   #### <h3>Motoriek (shocks, elastiekjes)</h3>
   <b>Hier korte omschrijving (met indien nodig afbeeldingen)</b>
   <br>Tijdens het testen met een elastiekje en shocks kwam ik erachter dat de website moeilikjker te navigeren is. 
   In de video ieronder zul je zien dat het wel lukt maar je moet er veel moeite voor doen en soms lukt het dan ook gwn niet.
   
+  video staat hier!
   <video controls width="80%">
     <source src="video/test-shocks.mp4"
             type="video/mp4">
 </video>
   
-  Verder is het ook vrij irritant wanneer je niet al je vingers kunt gebruiken. als ik bijvoorbeeld iets wilde gaan opzoeken in de website doe je dat vaaak met al je vingers. met het elastiekkje om 3 vingers heen gebonden lukte dit slechter en drukte je soms een extar toetsin die je niet wilde.
-
-  <b> Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)</b>
+  Verder is het ook vrij irritant wanneer je niet al je vingers kunt gebruiken. als ik bijvoorbeeld iets wilde gaan opzoeken in de website doe je dat vaaak met al je vingers. met het elastiekkje om 3 vingers heen gebonden lukte dit slechter en drukte je soms een extra toets in die je niet wilde.
 
 
   #### <h3>Visueel (brillen, contrast, kleurenblind, dark/light). </h3>
   <b>Hier korte omschrijving (met indien nodig afbeeldingen)</b>
-  <br>Darkmode: ik heb vid de inspector tool, darkmode getest om te zien wat er verschilt. en eigenlijk is dat ninet heel veel op alle standaard witte         achtegronden na, deze worden zwart. Hierdoor worden sommige dingen wel duidelijker (zie screenshot) of meer belangrijk dan dat het zou moeten zijn.     Het contrast wordt iets groter ook vind ik.
+  <br>Darkmode: ik heb vid de inspector tool, darkmode getest om te zien wat er verschilt. en eigenlijk is dat niet heel veel op alle standaard witte         achtegronden na, deze worden zwart. Hierdoor worden sommige dingen wel duidelijker (zie screenshot) of meer belangrijk dan dat het zou moeten zijn.     Het contrast wordt iets groter ook vind ik.
   
   <img src="readme-images/l-mode.jpg" alt="foto van lightmode"> VS   <img src="readme-images/d-mode.jpg" alt="foto van darkmode">
   
@@ -144,9 +142,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb de eerste feedback ronde gemist. hie rheb ik robert ook via teams iest over gemeld. Uteindelijk afgesproken dat ik de eerste feedback mocht      overslaan omdat ik andere studenten veel aan het helpen was.
   
-  Ik had eigenlijk nergens echt moeite mee, wel be ik op Desktop begonnen en naar mobiel gegaan
+  De eerste week ging wel hele makkelijk tot woensdag. daarna niet meer zoveel gedaan vanwege reden.. Wel begon ik op desktop en niet op mobiel.
+  Ik vind dat zelf handiger omdat ik dan kleiner kan schalen en zie waar welk element moet komen. Ik kan dan ook makkelijker en voor mijn gvoel minder code hoeven te schrijven zodat het ook responive er goed uitziet.
 
 
   ### Agenda voor meeting
@@ -160,10 +159,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  <b>hier na afloop snel de uitkomsten van de meeting vastleggen<b>
 
-  - CSS classes verminderen
-  - CSS opschonen
+  Nog geen feedback gekregen!
 
 </details>
 
@@ -177,7 +175,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  In de 2e week ben ik mij wat meer om mobiel gaan focussen. Ik begon namelijk op desktop maar had dat heel even acherwege gelaten.
+  
+  Ik had niet echte grote problemen, maar bleef soms te lang haken op een klein ding waarbij ik de volgende dag gelijk ag wat het probleem was.
 
 
   ### Agenda voor meeting
@@ -195,17 +195,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
    - CSS classes verminderen
   - CSS opschonen
+  - verder met mobiel gaan, desktop even achterwege laten!
   
-
 </details>
 
-## <h2>Voortgang 2 (week 4)</h2>
+## <h2>Voortgang 3 (week 4)</h2>
 
 <details>
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  probleem met sldier op de 2e pagina.
+  In deze week heb ik beide pagina's afgekregen. Wel zijn er wat kleine dingen die ik nog moest doen.
+  Zo had ik een probleem met sldier op de 2e pagina en waren er accesibilty dingetjes die beter konden.
+  
+  verder verliep het vrij goed en ging het me vrij makkleijk af.
 
 
   ### Agenda voor meeting
@@ -224,7 +227,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Figcaption bij figure tag
   - w3c vaildator
   - alt bij images zetten
-  
+  - accibility dingetjes oppakken
+   
 
 </details>
 
@@ -238,67 +242,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  <b>Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):</b>
+   
+  - Menu werkt niet met tab toets
+  - Paragraven worden nu wel allemaal gelezen
+  - hij geeft de titel van de sectie aan
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+ Alle tekst wordt nu wel voorgelezen. Ik heb ook in elke sectie een Heading gebruikt en daarom krijg je een soort intro over welke sectie het gaat.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  de tab toets raakt alles aan dus dat werkt goed en ook de pijlen doen hun ding!
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Ik heb met het shock arbandje getest wat ik nu wel en niet kon en dit is eigenlijk gewoon hetzelfde gebleven. soms een verkeerde toets ingedrukt. en soms ging het beter.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Kleuren en zichtbaarheid is nog steeds hetzelfde als dat op de originele website ook is.
 
 </details>
-
-
-
-
-
-## <h2>Voortgang 3 (week 4)</h2>
-
-<details>
-  <summary>uitwerken voor 3e voortgang</summary>
-
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
-</details>
-
-
 
 
 
@@ -334,8 +301,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. [bron 1] (https://codepen.io/alvarotrigo/pen/MWEJEWG)
-  2. bron 2. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach (JS menu)
-  3. ...
+  1. https://codepen.io/robertspier/pen/PoeJpVO (Foldable menu dingen meegekeken en over geschreven)
+  2. https://codepen.io/Smn91/pen/oNEQmWp (de animatie "geleend")
+  3. https://dev.to/ljcdev/introduction-to-scroll-animations-with-intersection-observer-d05 (wanneer het inzicht is speelt animatie af)
+  4. https://codepen.io/dudleystorey/pen/DJqNKP (slider van images before and after)
+  5. https://codepen.io/Mahii-/pen/eYMPxoX (slider image page 2)
 
 </details>

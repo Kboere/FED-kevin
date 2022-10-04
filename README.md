@@ -281,19 +281,30 @@ https://user-images.githubusercontent.com/112857604/193881713-7bc4dbb5-6368-4cb1
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  
+  Zie url van website. (Verder ook niet zo'n goed idee wat dit inhoudt)
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  In deze weken heb ik vooral dingen opgefrist voor mezelf. en heb ik ander goed kunnen helpen.
+  Ik werk al 3/4 jaar met HTML & CSS en een heeeeeeeeel klein beetje JS. 
+  
+  Dingen die goed gingen:
+  - het gebruik van Display:Flex & Grid.
+  - het snel opzetten van HTML Structuur
+  - Alle CSS classes verwijderen en in het CSS bestand aanpassen
+  - Mensen uitleggen hoe ze het anders kunnen doen en helpen
+  - Het beter gaan begrijpen van JS 
+  - Makkelijk positioneren van elementen d.m.v. CSS
+  
+  Ik heb niet echt een afbeelding die dit kan weergeven, maar hopelijk kun je aan mn code zien dat het ging ;)
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+ Het lastigste of eigenlijk eerder wat ik niet heb gedaan is om vanaf mobiel te beginnen.
+ Voor mij is het makkelijker om van groot naar klein te schalen omdat ik het gevoel heb dat ik minder code hoef te schrijven en dat wprdt dan ook veel minder warrig.
+ 
+ Een ander puntje dat ik lastig vond is wanneer je Aria-label gebruikt en wanneer Title en dat soort attributen...
+ Die dingen zijn wel erg belangrijk voor bijvoorbeeld screenreaders. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 

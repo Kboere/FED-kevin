@@ -39,9 +39,6 @@ function moveDivisor() {
 	divisor.style.width = slider.value+"%";
 }
 
-
-//https://dev.to/ljcdev/introduction-to-scroll-animations-with-intersection-observer-d05
-
 const svgs = document.querySelectorAll("svg")
 
 const callback = (entries, observer) => {
@@ -60,4 +57,16 @@ const myObserver = new IntersectionObserver(callback, options)
 svgs.forEach(svg => {
     myObserver.observe(svg)
 })
+
+
+var darkmode = document.querySelector("main aside button");
+
+function darkmodeEnable() {
+    document.body.classList.toggle("darkmode");
+}
+
+darkmode.addEventListener("click", darkmodeEnable);
+
+
+console.log(darkmode);
 
